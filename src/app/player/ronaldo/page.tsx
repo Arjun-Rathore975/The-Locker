@@ -12,7 +12,7 @@ export default function RonaldoProfile() {
       <section className="px-8 pt-16 pb-12 border-b border-white/10 max-w-5xl">
         <p className="text-xs text-white/30 uppercase tracking-widest mb-6">Forward · Al Nassr · Portugal</p>
         <h1 className="text-7xl font-semibold tracking-tight leading-none mb-4">Cristiano<br />Ronaldo</h1>
-        <p className="text-white/40 text-lg max-w-2xl leading-relaxed">Football&apos;s first billionaire. 971 career goals and counting. A boy from the slums of Madeira who became the most followed human on the internet.</p>
+        <p className="text-white/40 text-lg max-w-2xl leading-relaxed">Football&apos;s first billionaire. 973 career goals and counting. A boy from the slums of Madeira who became the most followed human on the internet.</p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
           {[{num:"973",label:"Career goals",sub:"Chasing 1,000"},{num:"143",label:"International goals",sub:"Men's all-time record"},{num:"41",label:"Years old",sub:"Still scoring 40+ a year"},{num:"$1.2B",label:"Net worth",sub:"Football's first billionaire"}].map((s)=>(<div key={s.label} className="border border-white/10 rounded-xl p-5"><p className="text-3xl font-semibold mb-1">{s.num}</p><p className="text-sm text-white/60">{s.label}</p><p className="text-xs text-white/30 mt-1">{s.sub}</p></div>))}
         </div>
